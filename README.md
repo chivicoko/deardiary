@@ -1,6 +1,8 @@
 
 # Dear Diary - Story of a mind once lost...
 
+![Bruce Lee's logo of Jeet Kune Do - Yin/Yang](/images/jkd-yin-yang-3.jpg)
+
 My parents named me **Victor Chibuzo Okoye**.
 
 Call this repository a personal diary or documentary or whatever you perceive it as.
@@ -13,8 +15,7 @@ Take a ride with me, and share with me, the interesting ocean of thoughts, ideas
 
 `It's best not to take whatever I write here personal. They're my thoughts, imaginations and experiences. But, make of it whatever you will.`
 
-![Bruce Lee's logo of Jeet Kune Do - Yin/Yang](/images/jkd-yin-yang-3.jpg)
-
+#### The Image above
 `"Using no way as way. Having no limitation as limitation."`
 
 These phrases in the line above, which is the translation of the Chinese write-up in the image above, encapsulate the core philosophy of Jeet Kune Do, Bruce Lee's martial art and life philosophy. Here's what they mean:
