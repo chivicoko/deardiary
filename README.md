@@ -30,7 +30,8 @@ Together, these statements reflect Bruce Lee's belief in fluidity, adaptability,
 
 `Basically, this is my path. This philosophy is what I now live by.`
 
-More information on my career is available at:
+More information on my career:
+
 [victorokoye.com](https://victorokoye.com)
 ### OR
 [victorokoye.me](https://chivicoko.github.io/victorokoye.me)
