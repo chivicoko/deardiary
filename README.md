@@ -1,149 +1,41 @@
 
 # Dear Diary - Story of a mind once lost...
 
-My parents named me **Victor Chibuzo Okoye**. 
+My parents named me **Victor Chibuzo Okoye**.
+
+Call this repository a personal diary or documentary or whatever you perceive it as.
+
+My aim is to write down my thoughts as raw as possible, and as much as possible, and as soon as possible. A lot of things are become clearer to me day by day. This is because I like to read a lot of insightful books and listen to lots of insightful individuals that I come across, as much as I can. And I have noticed that there are lots of misinformation in the world today, which has caused most people to be captives to their own mind. And the interesting thing is that most people argue about the wrong things just because they have been misinformed. And so they argue blidnly about the wrong things. I try not to engage in such a conversation. But, I still feel the need to express my thoughts about life generally, whether accepted or not by anyone. Here is where I poor out myself!
+
+As days go by, I become more and more free as I gain more clarity and understanding of things....
+
+Take a ride with me, and share with me, the interesting ocean of thoughts, ideas and concepts that flow through my mind. I will always share my mind with you, and I will always try my best to keep it raw. I believe this is where my mind finds rest.
+
+`It's best not to take whatever I write here personal. They're my thoughts, imaginations and experiences. But, make of it whatever you will.`
 
 ![Bruce Lee's logo of Jeet Kune Do - Yin/Yang](/images/jkd-yin-yang-3.jpg)
 
 `"Using no way as way. Having no limitation as limitation."`
 
-## Features
-- Fetch data from a mock API using `json-server`
-- Display course details including instructors, resources, reviews, and discussions
-- Dynamic course completion progress based on chapters
-- Vue.js components to organize the course structure (Sidebar, Tabs, etc.)
-- Pinia for state management
-- Axios for API requests
+These phrases in the line above, which is the translation of the Chinese write-up in the image above, encapsulate the core philosophy of Jeet Kune Do, Bruce Lee's martial art and life philosophy. Here's what they mean:
 
-## Project Setup
+### Using no way as way:
+`This signifies that there is no single, fixed method or "way" to approach combat or life. It encourages flexibility, adaptability, and the ability to flow between different techniques and strategies. Rather than adhering strictly to one style or form, a practitioner should be open to using whatever is effective in a given situation.`
 
-### 1. Install Dependencies
-Ensure you have **Node.js** and **npm** installed on your system. Run the following commands to install the dependencies:
+### Having no limitation as limitation:
+`This phrase suggests that one should not be constrained by rigid rules or boundaries, whether in martial arts or in life. It highlights the importance of transcending perceived limitations, whether they are physical, mental, or ideological.`
+
+Together, these statements reflect Bruce Lee's belief in fluidity, adaptability, and the rejection of dogma. The yin-yang symbol further reinforces the idea of balance and harmony between opposing forces, such as hard and soft, offense and defense, or action and inaction, all of which are central to Jeet Kune Do.
+
+`Basically, this is my path. This philosophy is what I want to follow.`
+
+More information on my career is available at:
 ```bash
-npm install
+https://victorokoye.com
 ```
+### OR
 ```bash
-npm install json-server
+https://chivicoko.github.io/victorokoye.me
 ```
 
-Create a `.env` file and insert the following in it:
-```bash
-VITE_API_BASE_URL=http://localhost:3001
-```
-
-### 2. Run the Mock API
-This project uses `json-server` to mock the API for fetching departments and courses. You will find the `elearncourses.json` file in the `data/` directory, which contains sample department and course data.
-
-To start the `json-server`, run:
-```bash
-npx json-server --watch ./data/elearncourses.json --port 3001
-```
-This will serve the mock API at `http://localhost:3001/departments`.
-
-### 3. Run the Development Server
-Once the dependencies are installed, you can start the Vue development server:
-```bash
-npm run dev
-```
-This will start the application at `http://localhost:3000/`.
-
-### 4. View the Application
-Open your browser and visit `http://localhost:3000/` to view the application. You can navigate between courses and view the dynamic sidebar showing course progress.
-
-## Folder Structure
-
-- **src/**: Contains the core Vue.js components and store files.
-  - `App.vue`: Main application component.
-  - `components/`: Contains individual Vue components (Sidebar, CourseHeader, etc.).
-  - `views/`: Contains the primary views such as `CourseOptionView.vue`.
-  - `stores/`: Pinia store setup for managing course and department data (`courseStore.ts`).
-  - `router/`: Vue Router setup for navigation.
-  - `utils/`: Utilities setup for typescript types (`types.ts`).
-- **data/**: Contains `elearncourses.json`, which stores the mock data for the json-server.
-- **public/**: Static assets like images.
-
-## Data Structure
-
-The application pulls data from `elearncourses.json` via `json-server`. Here is an example of the data structure:
-
-```json
-  {
-    "departments": [
-    {
-      "id": "dept01",
-      "name": "Computer Science",
-      "courses": [
-        {
-          "id": "course01",
-          "title": "Introduction to Programming",
-          "lecturer": "Dr. Alice Johnson",
-          "image": "/src/assets/ictguy.jpeg",
-          "video": "/src/assets/courseVideo2.mp4",
-          "description": "Learn the fundamentals of programming using Python...",
-          "reviews": [
-            {
-              "user": "Student A",
-              "image": "/src/assets/user.jpeg",
-              "rating": 5,
-              "comment": "Excellent course for beginners!"
-            },
-            {
-              "user": "Student B",
-              "image": "/src/assets/user4.jpeg",
-              "rating": 0,
-              "comment": "Good content, but needs more examples."
-            }
-          ],
-          "discussions": [
-            {
-              "user": "Student A",
-              "image": "/src/assets/user.jpeg",
-              "comment": "What is the best way to start coding? I find that there are many different ways to start coding."
-            },
-            {
-              "user": "Student C",
-              "image": "/src/assets/user4.jpeg",
-              "comment": "Can we get additional resources? It's really important for students to have a great understanding of programming."
-            }
-          ],
-          "resources": [
-            {
-              "title": "Python Official Documentation",
-              "url": "https://docs.python.org/3/"
-            }
-          ],
-          "instructors": [
-            {
-              "name": "Dr. Alice Johnson",
-              "bio": "Senior Lecturer in Computer Science with 10 years of experience.",
-              "image": "/src/assets/instructor1.jpeg"
-            }
-          ],
-          "chapters": [
-            {
-              "title": "Getting Started",
-              "status": "completed"
-            },
-            {
-              "title": "Data Types and Variables",
-              "status": "completed"
-            },
-            {
-              "title": "Data Types and Variables",
-              "status": "in progress"
-            },
-            {
-              "title": "Control Structures",
-              "status": "locked"
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
-```
-
-More information in the `PROJECT_DOCUMENTATION.md` file.
-
-Happy Hacking!
+# Know Thyself!!!
