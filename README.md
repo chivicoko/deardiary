@@ -28,7 +28,7 @@ These phrases in the line above, which is the translation of the Chinese write-u
 
 Together, these statements reflect Bruce Lee's belief in fluidity, adaptability, and the rejection of dogma. The yin-yang symbol further reinforces the idea of balance and harmony between opposing forces, such as hard and soft, offense and defense, or action and inaction, all of which are central to Jeet Kune Do.
 
-`Basically, this is my path. This philosophy is what I want to follow.`
+`Basically, this is my path. This philosophy is what I now live by.`
 
 More information on my career is available at:
 [victorokoye.com](https://victorokoye.com)
